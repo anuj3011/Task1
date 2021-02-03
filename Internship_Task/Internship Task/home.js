@@ -44,7 +44,7 @@ function signout(){
   firebase.auth().signOut().then(function() {
     console.log('Signed Out');
     alert('Successfully Logged Out');
-    location.assign("option.html");
+    location.assign("index.html");
   }, function(error) {
     console.error('Sign Out Error', error);
   });
